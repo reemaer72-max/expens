@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
-import { setCurrentUser } from "../Features/UserSlice";
-import { getStoredUser } from "../utils/storage";
+import { setCurrentUser } from "../Features/UserSlice.js";
+import { getStoredUser } from "../utils/storage.js";
 import Location from "./Location";
 const Profile = () => {
   const dispatch = useDispatch();

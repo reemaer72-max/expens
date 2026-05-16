@@ -2,8 +2,8 @@ import { NavLink, useNavigate } from "react-router-dom";
 import "../App.css";
 import logo from "../Images/logo.jpeg";
 import { useDispatch, useSelector } from "react-redux";
-import { logout } from "../Features/UserSlice";
-import { resetExpenses } from "../Features/ExpenseSlice";
+import { logout } from "../Features/UserSlice.js";
+import { resetExpenses } from "../Features/ExpenseSlice.js";
 import { getStoredUser } from "../utils/storage.js";
 
 const Header = () => {

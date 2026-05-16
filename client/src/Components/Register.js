@@ -4,8 +4,8 @@ import { Button, Form, Container, Row, Col } from "reactstrap";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useDispatch } from "react-redux";
-import { registerSchema } from "../Validations/UserValidations";
-import { registerUser } from "../Features/UserSlice";
+import { registerSchema } from "../Validations/UserValidations.js";
+import { registerUser } from "../Features/UserSlice.js";
 
 const Register = () => {
   const dispatch = useDispatch();
